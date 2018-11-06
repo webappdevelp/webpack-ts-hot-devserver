@@ -1,0 +1,23 @@
+{
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules/",
+    "dist/",
+    "build/"
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "removeComments": true,
+    "noImplicitAny":true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "lib": [
+      "es2015.promise",
+      "es2016",
+      "scripthost",
+      "dom"
+    ]
+  }
+}
